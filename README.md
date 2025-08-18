@@ -659,4 +659,160 @@ android {
 1. Check storage permissions
 2. Verify APK file integrity
 3. Ensure sufficient storage space
-4.
+4. Check target architecture compatibility
+
+#### 🐛 Freezing During App Loading
+**Symptoms**: App freezes when loading virtual applications
+**Solutions**:
+1. **Resource Loading Issues**: Enhanced error handling implemented
+2. **Memory Issues**: Memory-aware buffer sizing included
+3. **Context Creation Failures**: Multiple fallback mechanisms added
+
+#### 🐛 Android 15 Compatibility Issues
+**Symptoms**: Crashes on Android 15 devices
+**Solutions**:
+1. **Security Restrictions**: Enhanced security exception handling
+2. **Permission Model**: Updated permission handling for Android 15
+3. **Edge-to-Edge UI**: Modern UI compatibility improvements
+
+#### 🐛 MIUI Device Issues
+**Symptoms**: Crashes or instability on Xiaomi devices
+**Solutions**:
+1. **MIUI Security**: Special optimizations for MIUI security policies
+2. **Background Restrictions**: Enhanced background execution handling
+3. **Permission Management**: MIUI-specific permission handling
+
+### 📋 Debug Checklist
+- [ ] Check Android version compatibility (5.0-15.0)
+- [ ] Verify device architecture (ARM64/ARMv7/x86)
+- [ ] Ensure storage permissions granted
+- [ ] Check available storage space (>100MB)
+- [ ] Monitor logcat for specific error messages
+- [ ] Test with different target architecture builds
+
+### 🔍 Logging & Debugging
+```java
+// Enable debug logging
+Log.d("BlackBox", "Debug message");
+Log.e("BlackBox", "Error message", exception);
+
+// Monitor key components
+- APK path resolution
+- UID management
+- Security exceptions
+- Context creation
+- JAR file operations
+```
+
+## 🤝 Contributing to the Project
+
+### Project Architecture
+- **📱 App Module**: User interface and interaction handling (Kotlin)
+- **⚙️ Bcore Module**: Core virtual engine functionality (Java/Kotlin)
+- **🔧 Native Core**: Low-level system integration
+- **📚 Utils**: Utility classes and helper functions
+
+### Contribution Guidelines
+1. **Code Quality**: Follow existing code style and patterns
+2. **Documentation**: Document new features and APIs
+3. **Testing**: Test on multiple Android versions and devices
+4. **Commit Messages**: Use clear, descriptive commit messages (English/Chinese OK)
+5. **Pull Requests**: Provide detailed descriptions of changes
+
+### Development Focus Areas
+- **🔧 Core Engine**: Virtual application management improvements
+- **🛡️ Security**: Enhanced sandboxing and permission handling
+- **⚡ Performance**: Memory and CPU optimization
+- **📱 Compatibility**: Support for newer Android versions
+- **🎨 UI/UX**: Improved user interface and experience
+
+## 🚀 Future Roadmap
+
+### Planned Enhancements
+- **🌐 Enhanced Service API Virtualization**
+- **🔧 Advanced Developer Interfaces**
+  - Virtual location manipulation
+  - Process injection capabilities
+  - Custom environment variables
+- **📊 Performance Monitoring Dashboard**
+- **🛡️ Advanced Security Features**
+- **🎯 Plugin Architecture Support**
+
+## 💰 Commercial Availability & Support
+
+### 📞 Contact ZENINXOP for Commercial Use
+The enhanced source code with all improvements and fixes is available for commercial licensing:
+
+#### 📱 Contact Methods
+- **Telegram**: [@ZENINXOP](https://t.me/ZENINXOP) - Direct message for inquiries
+- **Email**: Contact via Telegram for email details
+- **Response Time**: Usually within 24 hours
+
+#### 💼 What's Included in Commercial License
+- **📦 Complete Enhanced Source Code** - All fixes and improvements
+- **🔧 Build Scripts & Configuration** - Ready-to-use project setup
+- **📚 Comprehensive Documentation** - Implementation guides and API docs
+- **🛠️ Technical Support** - Direct support from ZENINXOP
+- **🔄 Future Updates** - Access to ongoing improvements
+- **🏢 Commercial Usage Rights** - Full licensing for commercial projects
+
+#### 🎯 Perfect For
+- **App Development Companies** - Virtual app solutions
+- **Security Research** - Sandboxing and isolation studies  
+- **Educational Institutions** - Android virtualization research
+- **Enterprise Solutions** - Custom virtual environment needs
+
+---
+
+## 💖 Sponsorship & Support
+
+This project represents significant development effort in creating a stable, secure virtual engine. Your support helps continue development and maintenance.
+
+### 🪙 Cryptocurrency Donations
+- **Binance id **: `1025747286`
+
+### ☕ Support Development
+- **Feature Sponsorship**: Contact for custom feature development
+- **Priority Support**: Commercial users receive priority assistance
+
+## 🙏 Credits & Acknowledgments
+
+### 👨‍💻 Enhanced Edition Developer
+- **ZENINXOP** - Complete enhanced edition with comprehensive bug fixes, security improvements, and performance optimizations
+
+### 🔧 Fixes & Improvements by ZENINXOP
+- **APK Path Resolution System** - Intelligent fallback mechanisms for missing APK files
+- **Security Exception Handling** - Robust UID management for Android 15 and MIUI devices
+- **Performance Optimization** - Memory-aware buffer sizing and async operations
+- **JAR System Overhaul** - Complete rewrite with integrity verification and caching
+- **Error Recovery Mechanisms** - Comprehensive error handling throughout the application
+- **Compilation Fixes** - Resolution of critical build and runtime errors
+- **Freezing Bug Elimination** - Complete fix for NullPointerException issues
+- **Context Creation Enhancement** - Multiple fallback strategies for package contexts
+
+### 📚 Original Framework Credits
+- [VirtualApp](https://github.com/asLody/VirtualApp) - Original virtual application framework
+- [VirtualAPK](https://github.com/didi/VirtualAPK) - Plugin framework inspiration
+- [BlackReflection](https://github.com/CodingGay/BlackReflection) - Reflection utilities
+- [FreeReflection](https://github.com/tiann/FreeReflection) - Enhanced reflection support
+- [Dobby](https://github.com/jmpews/Dobby) - Native hook framework for ARM/ARM64/x86/x64
+- [xDL](https://github.com/hexhacking/xDL) - Android dynamic linker utilities
+
+### License
+
+> ```
+> Copyright 2022 BlackBox
+>
+> Licensed under the Apache License, Version 2.0 (the "License");
+> you may not use this file except in compliance with the License.
+> You may obtain a copy of the License at
+>
+>    http://www.apache.org/licenses/LICENSE-2.0
+>
+> Unless required by applicable law or agreed to in writing, software
+> distributed under the License is distributed on an "AS IS" BASIS,
+> WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+> See the License for the specific language governing permissions and
+> limitations under the License.
+> ```
+> 
