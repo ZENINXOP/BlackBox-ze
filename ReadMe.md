@@ -93,7 +93,7 @@ startActivity(i);
 
 📱 **Contact ZENINXOP:**  
 - **Telegram:** [@ZENINXOP](https://t.me/ZENINXOP)  
-- **YouTube:** [@ZENINXOP](https://youtube.com/@ZENINXOP)  
+- **YouTube:** [@ZENINXYT](https://youtube.com/@ZENIN_XYT)  
 - **Binance ID (Support Dev):** `1025747286`
 
 💼 **Paid Edition Includes:**
