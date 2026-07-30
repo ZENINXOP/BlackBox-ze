@@ -1,8 +1,13 @@
 # 🚀 ZCore — BlackBox Enhanced Edition
 
-<p align="center">
-  <img src="[https://raw.githubusercontent.com/github/explore/main/topics/cube/cube.png](https://imgs.search.brave.com/Ym78uW3vFitLyCdy62HC1VVyB-KTyZ4KH8WIb88dDEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hcGth/bGVydC5jb20vbG9n/by9ibGFja2JveF82/NF9iaXRfYXBrLnBu/Zw)" width="180" alt="ZCore BlackBox Logo"/>
+  <p align="center">
+  <img
+    src="https://imgs.search.brave.com/Ym78uW3vFitLyCdy62HC1VVyB-KTyZ4KH8WIb88dDEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hcGth/bGVydC5jb20vbG9n/by9ibGFja2JveF82/NF9iaXRfYXBrLnBu/Zw"
+    width="180"
+    alt="ZCore BlackBox Logo"
+  />
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-ZCore-8a2be2.svg"/>
