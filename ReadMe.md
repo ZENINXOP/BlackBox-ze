@@ -430,7 +430,7 @@ For Paid Edition details, complete source-code access, compatibility support, or
 
 * **Telegram:** [@ZENINXOP](https://t.me/ZENINXOP)
 * **YouTube:** [@ZENINXYT](https://youtube.com/@ZENIN_XYT)
-* **Binance ID:** `1025747286`
+* **Binance ID:** `1243066564`
 
 ---
 
