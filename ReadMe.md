@@ -42,7 +42,7 @@ ZCore extends the original BlackBox architecture with additional improvements fo
 
 ---
 
-## ✨ Main Features
+## ✨ Main Feature
 
 * Run multiple instances of Android applications
 * Clone applications without modifying their original APK
